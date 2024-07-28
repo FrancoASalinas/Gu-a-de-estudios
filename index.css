@@ -1,0 +1,65 @@
+@font-face {
+  font-family: Jet-Brains;
+  src: url('assets/JetBrainsMono.ttf');
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url('assets/Rubik.ttf');
+}
+
+:root {
+  --font-heading: Rubik;
+  --font-text: Jet-Brains;
+  --primary-100: #d7e1f9;
+  --primary-200: #b4bfdb;
+  --primary-300: #909dbc;
+  --primary-400: #6c7b9e;
+  --primary-500: #48587f;
+  --primary-600: #374464;
+  --primary-700: #263048;
+  --primary-800: #151c2d;
+  --primary-900: #040711;
+  --size-1: 4px;
+  --size-2: 8px;
+  --size-3: 12px;
+  --size-4: 16px;
+  --size-5: 24px;
+  --size-6: 32px;
+  --size-7: 48px;
+  --size-8: 64px;
+  --size-9: 96px;
+  --size-10: 128px;
+  --size-11: 192px;
+  --size-12: 256px;
+  --size-13: 384px;
+  --size-14: 512px;
+  --size-15: 640px;
+  --size-16: 768px;
+}
+
+* {
+  box-sizing: border-box;
+  color: var(--primary-100);
+  background-color: none;
+  font-family: var(--font-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
+
+body {
+  background-color: var(--primary-800);
+}
+
+.main {
+  width: 100%;
+  max-width: var(--size-14);
+  margin: 0 auto;
+}
