@@ -1,0 +1,101 @@
+:root {
+  --primary-100: #eee;
+  --primary-200: #222
+}
+
+* {
+  box-sizing: border-box;
+  background: none;
+  margin: 0;
+  padding: 0;
+  color: var(--primary-200);
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+button {
+    cursor: pointer
+}
+
+body {
+  background-color: var(--primary-100);
+}
+
+.header {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 24px;
+}
+
+.homepage-link {
+  display: flex;
+  height: 100%;
+  gap: 8px;
+}
+
+.logo {
+  height: 100%;
+}
+
+.staggered-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.bars {
+  width: 15px;
+  height: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.bars__bar {
+  width: 100%;
+  height: 2px;
+  background-color: var(--primary-200);
+}
+
+.search-button,
+.appareance-button {
+  width: 15px;
+  height: 15px;
+}
+
+.more-button {
+    display: flex;
+    width: 19px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.more-button__point{
+    position: relative;
+    width: 4px;
+    height: 4px;
+    background-color: var(--primary-200);
+    border-radius: 100%;
+}
+
+.header__left, .header__right {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 24px;
+}
+
+.link {
+    font-size: 14px;
+    color: #45f;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
